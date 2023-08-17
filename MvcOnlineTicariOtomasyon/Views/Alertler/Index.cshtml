@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="~/Scripts/jquery-3.4.1.js"></script>
+<br /><br/>
+<button class="btn btn-primary" id="btn1">1</button>
+
+
+
+<script>
+    $('#btn1').click(function () {
+        swal("Hello World");
+    });
+</script>
